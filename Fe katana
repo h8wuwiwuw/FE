@@ -7719,15 +7719,15 @@ if k == "f" and attack == false and equipped == false then
 	maybe:FindFirstChildOfClass("AlignOrientation").Attachment1 = rarmor.Attachment
     maybe:FindFirstChildOfClass("AlignPosition").Attachment1 = rarmor.Attachment2
 
-    rarmor.Attachment2.Position = Vector3.new(-1.5, -0.100, 0)
-    rarmor.Attachment.Rotation = Vector3.new(-1.1, 2, 5000)
+    rarmor.Attachment2.Position = Vector3.new(-2, -1, 0)
+    rarmor.Attachment.Rotation = Vector3.new(50, 4, -10000)
 	equip()
 elseif k == "f" and attack == false and equipped == true then
 	maybe:FindFirstChildOfClass("AlignOrientation").Attachment1 = playerss.Torso.WaistBackAttachment
     maybe:FindFirstChildOfClass("AlignPosition").Attachment1 = playerss.Torso.WaistBackAttachment
 
-    playerss.Torso.WaistBackAttachment.Position = Vector3.new(-0, 0.26, 0.6)
-    playerss.Torso.WaistBackAttachment.Orientation = Vector3.new(-4.16, -179.28, 160.7)
+    playerss.Torso.WaistBackAttachment.Position = Vector3.new(1, 0.26, 0.6)
+    playerss.Torso.WaistBackAttachment.Orientation = Vector3.new(-3, -179.28, 160.7)
    unequip()
 end
 if k == "y" and attack == false and equipped == false then
